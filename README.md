@@ -1,5 +1,5 @@
 # form-template
-A simple form template for Lamp sites.
+A simple form template for sites.
 
 
 *Settings placeholder*
