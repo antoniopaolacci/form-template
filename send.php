@@ -23,7 +23,7 @@
 	}
 	
 	// Configurazione dell'email
-	$mail_to = "#placeholder_mail_to#@gmail.com";
+	$mail_to = "#placeholder_mail_to#";
 	$mail_subject = "A message from online website";
 	$mail_body = "Nome: [".$nome."] Cognome: [".$cognome."] Email: [".$email."] Oggetto: [".$oggetto."] writes this message: [".$messaggio."]";
 
