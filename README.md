@@ -1,8 +1,5 @@
 # form-template
-A simple form template for sites.
-
-
-You need to set some placeholders.
+A simple form template for sites. You need to set only some placeholders.
 
 <pre>
  <code>
