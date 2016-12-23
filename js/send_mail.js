@@ -30,7 +30,12 @@ function validate_send_mail() {
 	   errorMsg("Il campo Messaggio e' obbligatorio.");
 	   document.mailform.messaggio.focus();
 	   return false;
- 	}   
+ 	}
+	else if(!validCaptcha()) {
+	   errorMsg("Compila correttamente il campo captcha.");
+	   document.mailform.txtcompare.focus();
+	   return false;
+	}
 	else { 
 	   document.mailform.action = "#placeholder_url_php#/send.php";
 	   document.mailform.submit();
@@ -46,6 +51,6 @@ function errorMsg(text) {
 	   txt.removeChild(txt.firstChild);	
 	}
 	
-	txt.appendChild(document.createTextNode(text));
+	txt.appendChild(document.createTextNode(text));	
 	
 }
