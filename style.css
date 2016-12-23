@@ -42,7 +42,14 @@ label {
     padding: 6px 12px;
     transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
     width: 100%;
+	margin-bottom: 1px;
 }
+
+#captcha {
+	font-weight: 600;
+}
+
+
 
 #btn-send {
     background-color: #07d159;
