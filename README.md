@@ -2,16 +2,12 @@
 A simple form template for sites.
 
 
-*Settings placeholder*
+You need to set some placeholders
 
 <pre>
  <code>
- 
-\#placeholder_url_php# 			=  ...  <br/>
- 
-\#placeholder_mail_to# 			=  ...  <br/>
-
-\#placeholder_url_redirect# 	=  ...  <br/>
-
+#placeholder_url_php# 			=  ...  <br/>
+#placeholder_mail_to# 			=  ...  <br/>
+#placeholder_url_redirect# 	=  ...  <br/>
  </code>
 </pre> 
